@@ -1,0 +1,25 @@
+@font-face {
+    font-family: Titan One;
+    src: url('../assets/Titan_One/TitanOne-Regular.ttf');
+}
+
+.devFitContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    height: max-content;
+    background-color: #11001c;
+}
+
+.fitTitle {
+    color: #e05780;
+    font-family: Titan One;
+    font-size: 4em;
+}
+
+.fitPhoneImage {
+    width: 20em;
+    height: 40em;
+}

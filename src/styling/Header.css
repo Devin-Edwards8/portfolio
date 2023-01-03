@@ -1,0 +1,106 @@
+.header {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid;
+    border-color: #f2e9e4;
+    margin-bottom: 4em;
+    width: 90%;
+}
+
+.fitHeader {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid;
+    border-color: #ffe0e9;
+    margin-bottom: 4em;
+    width: 90%;
+}
+
+.ZeldaHeader {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid;
+    border-color: #83c5be;
+    margin-bottom: 4em;
+    width: 90%;
+}
+
+.headerName {
+    font-family: 'Arial Rounded MT Bold';
+    font-size: 3rem;
+    color: #403d39;
+}
+
+.fitHeaderName {
+    font-family: 'Arial Rounded MT Bold';
+    font-size: 3rem;
+    color: #ff9ebb;
+}
+
+.ZeldaHeaderName {
+    font-family: 'Arial Rounded MT Bold';
+    font-size: 3rem;
+    color: #006d77;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+}
+
+.navContainer {
+    width: 7em;
+    border-bottom: solid;
+    border-color: #f2e9e4;
+    margin-right: 3em;
+    cursor: pointer;
+    line-height: 0;
+}
+
+.fitNavContainer {
+    width: 7em;
+    border-bottom: solid;
+    border-color: #ffe0e9;
+    margin-right: 3em;
+    cursor: pointer;
+    line-height: 0;
+}
+
+.ZeldaNavContainer {
+    width: 7em;
+    border-bottom: solid;
+    border-color: #83c5be;
+    margin-right: 3em;
+    cursor: pointer;
+    line-height: 0;
+}
+
+.nav {
+    font-family: 'Arial Rounded MT Bold';
+    font-size: 1rem;
+    color: #403d39;
+    margin-left: 4px;
+}
+
+.fitNav {
+    font-family: 'Arial Rounded MT Bold';
+    font-size: 1rem;
+    color: #ff9ebb;
+    margin-left: 4px;
+}
+
+.ZeldaNav {
+    font-family: 'Arial Rounded MT Bold';
+    font-size: 1rem;
+    color: #006d77;
+    margin-left: 4px;
+}

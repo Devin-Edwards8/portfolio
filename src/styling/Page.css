@@ -1,0 +1,206 @@
+@font-face {
+    font-family: Titan One;
+    src: url('../assets/Titan_One/TitanOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: Arial Rounded;
+    src: url('../assets/arial-rounded/unicode.arialr.ttf');
+}
+
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    height: max-content;
+    background-color: #fffcf2;
+}
+
+.paragraphText {
+    color: #252422;
+    font-family: Arial Rounded;
+    font-size: 1.1rem;
+    width: 40%;
+    line-height: 1.4em;
+    text-align: center;
+}
+
+.link {
+    color: #403d39;
+    text-underline-offset: 2px;
+    cursor: pointer;
+}
+
+.phoneImageBig {
+    width: 21rem;
+    height: 42rem;
+    margin: 1em;
+}
+
+.phoneImage {
+    width: 20rem;
+    height: 40rem;
+    margin: 2em;
+}
+
+.zeldaImage {
+    width: 10rem;
+    height: 10rem;
+}
+
+.projectPreview {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+    border-radius: 2em;
+    width: 90%;
+    background-color: #efece2;
+    cursor: pointer;
+    min-height: 44rem;
+}
+
+.descriptionContainer {
+    position: absolute;
+    width: 10em;
+    left: 80%;
+    top: 2.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0;
+}
+
+.projectName {
+    font-family: Titan One;
+    font-size: 3rem;
+    color: #403d39;
+}
+
+.projectType {
+    font-family: 'Gill Sans';
+    font-size: 1rem;
+    color: #eb5e28;
+}
+
+.aboutPortrait {
+    border-radius: 5rem;
+    width: 29rem;
+    height: 36.5rem;
+}
+
+.aboutContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.pageDivider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.aboutText {
+    color: #252422;
+    font-family: Arial Rounded;
+    font-size: 1.2rem;
+    width: 80%;
+    line-height: 1.2em;
+    text-align: center;
+}
+
+.subheader {
+    font-family: 'Arial Rounded MT Bold';
+    font-size: 2rem;
+    width: 80%;
+    line-height: 1.2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.subheader2 {
+    font-family: 'Arial Rounded MT Bold';
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 0;
+}
+
+.subheader3{
+    font-family: 'Arial Rounded MT Bold';
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.darkGray {
+    color: #403d39;
+}
+
+.beige {
+    color: #fffcf2;
+}
+
+.subheaderLeft {
+    color: #525756;
+    font-family: 'Arial Rounded MT Bold';
+    font-size: 2rem;
+    line-height: 1.2em;
+    text-align: center;
+    font-weight: bold;
+    align-self: flex-start;
+    margin-left: 2em;
+}
+
+.bigBreak {
+    margin-top: 8em;
+}
+
+.cardContainer {
+    width: 100vw;
+    height: 15em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.condensedCard {
+    width: 25em;
+    height: 7em;
+    background-color: #88a2aa;
+    border-radius: 3em;
+}
+
+.expandedCard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 25em;
+    height: 8em;
+    background-color: #88a2aa;
+    border-radius: 3em;
+}
+
+.smallLeftPadding {
+    padding-left: 2em;
+}
+
+.pastelRed {
+    color: #f5f2b8;
+}
+
+.spanning {
+    width: 100%
+}
+
+.bottomLine {
+    border-bottom: solid;
+    width: 80%;
+}
