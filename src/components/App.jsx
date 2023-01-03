@@ -8,6 +8,7 @@ import React, { Component } from 'react'
 
 class App extends Component {
   handleSwitch = number => {
+    window.location.href='#top'
     this.setState( {
       pageN: number
     });

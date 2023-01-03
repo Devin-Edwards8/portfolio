@@ -189,7 +189,7 @@
 }
 
 .smallLeftPadding {
-    padding-left: 2em;
+    padding-left: 1em;
 }
 
 .pastelRed {
@@ -203,4 +203,20 @@
 .bottomLine {
     border-bottom: solid;
     width: 80%;
+}
+
+.greeting {
+    font-family: 'Arial Rounded MT Bold';
+    font-size: 8rem;
+    line-height: 10rem;
+    color: #7dba84;
+}
+
+.greetingText {
+    font-family: 'Arial Rounded MT Bold';
+    font-size: 2rem;
+    color: #403d39;
+    margin-left: 5rem;
+    margin-top: 2em;
+    margin-bottom: 10em;
 }

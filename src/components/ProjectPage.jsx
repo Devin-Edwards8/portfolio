@@ -15,6 +15,10 @@ export default function ProjectPage(props) {
     return (  
         <div className='pageContainer'>
             <Header onSwitch={props.onSwitch}/>
+            <div style={{alignSelf: 'flex-start', width: '60%'}}>
+                <p className='greetingText'><b className='greeting'>Hello!</b><br/>I'm a computer science student at the Ohio State University.
+                 Check out some of my recent project work below!</p>
+            </div>
             <div className='projectPreview' onMouseEnter={() => setClass('phoneImageBig')} 
             onMouseLeave={() => setClass('phoneImage')} onClick={() => props.onSwitch(3)}>
                 <img className={phoneClass} src={screen1} alt="A preview of the workout screen of my fitness App, devFit!"/>
