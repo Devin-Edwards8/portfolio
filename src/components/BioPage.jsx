@@ -11,7 +11,7 @@ export default function BioPage(props) {
             <Header className='main' onSwitch={props.onSwitch}/>
             <div className='aboutContainer'>
                 <div className='pageDivider'>
-                    <img src={portrait2} alt="Devin Edwards at a baseball game!" className='aboutPortrait'/>
+                    <img src={portrait2} alt="Devin Edwards" className='aboutPortrait'/>
                 </div>
                 <div className='pageDivider'>
                     <p className='subheader darkGray'>I'm a computer science student with a passion for
@@ -19,7 +19,7 @@ export default function BioPage(props) {
                     <p className='aboutText'>For the past year, I've been working with Ubihere: Tracking Solutions on camera-based drone 
                     navigation and image classification research. I've also been working on personal and school projects in my free time. 
                     Check out some of my work on my <u onClick={() => props.onSwitch(0)} className='link'>project page</u>!</p>
-                    <p className='aboutText'>I'm actively looking for opportunites to expand my programming abilities and contribute to 
+                    <p className='aboutText'>I'm actively looking for opportunities to expand my programming abilities and contribute to 
                     meaningful work.</p>
                     <p className='aboutText'>Outside of school, I love sports and reading.<br/> <b style={{color: '#eb5e28'}}>Who Dey!</b></p>
                 </div>

@@ -18,10 +18,72 @@
     font-family: Titan One;
     font-size: 4em;
     align-self: flex-start;
-    margin-left: 2em;
+    line-height: 0;
+    margin-top: 3em;
+    margin-left: 2rem;
 }
 
-.gameplay {
-    width: 80vw;
-    height: 80vh;
+.ZeldaDescription {
+    color: #006d77;
+    font-family: 'Arial Rounded MT Bold';
+    font-size: 2em;
+    line-height: 0;
+    margin-bottom: 8em;
+    align-self: flex-start;
+    margin-left: 2rem;
+}
+
+.ZeldaText {
+    font-family: Arial Rounded;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: #006d77;
+    text-align: center;
+}
+
+.ZeldaSubheader {
+    font-family: 'Arial Rounded MT Bold';
+    font-size: 2.5rem;
+    color: #f67e7d;
+    line-height: 0;
+    text-align: center;
+}
+
+.width1 {
+    width: 60%;
+}
+
+.width2 {
+    width: 85%;
+}
+
+.gapBottom {
+    margin-bottom: 10rem;
+}
+
+.gapTop {
+    margin-top: 10rem;
+}
+
+.featureContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.featureDescription {
+    width: 50%;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imageGrid {
+    width: 44em;
+    height: 40.5em;
+    border-radius: 4em;
+    margin-right: 2em;
 }

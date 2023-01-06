@@ -21,7 +21,7 @@
     align-items: center;
     width: 90%;
     border-top: solid;
-    border-color: #ffe0e9;
+    border-color: #ff9ebb;
     margin-top: 4em;
 }
 
@@ -46,7 +46,7 @@
 .fitFooterText {
     font-family: Arial Rounded;
     font-size: small;
-    color: #ff9ebb;
+    color: #8a2846;
     margin: 3em;
 }
 

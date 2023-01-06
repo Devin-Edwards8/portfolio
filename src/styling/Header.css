@@ -17,7 +17,7 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: solid;
-    border-color: #ffe0e9;
+    border-color: #ff9ebb;
     margin-bottom: 4em;
     width: 90%;
 }
@@ -43,7 +43,7 @@
 .fitHeaderName {
     font-family: 'Arial Rounded MT Bold';
     font-size: 3rem;
-    color: #ff9ebb;
+    color: #8a2846;
 }
 
 .ZeldaHeaderName {
@@ -69,7 +69,7 @@
 .fitNavContainer {
     width: 7em;
     border-bottom: solid;
-    border-color: #ffe0e9;
+    border-color: #ff9ebb;
     margin-right: 3em;
     cursor: pointer;
     line-height: 0;
@@ -94,7 +94,7 @@
 .fitNav {
     font-family: 'Arial Rounded MT Bold';
     font-size: 1rem;
-    color: #ff9ebb;
+    color: #8a2846;
     margin-left: 4px;
 }
 

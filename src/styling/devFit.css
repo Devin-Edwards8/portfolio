@@ -3,6 +3,11 @@
     src: url('../assets/Titan_One/TitanOne-Regular.ttf');
 }
 
+@font-face {
+    font-family: Arial Rounded;
+    src: url('../assets/arial-rounded/unicode.arialr.ttf');
+}
+
 .devFitContainer {
     display: flex;
     flex-direction: column;
@@ -10,16 +15,87 @@
     width: 100%;
     min-height: 100vh;
     height: max-content;
-    background-color: #11001c;
+    background-color: #ffe0e9;
 }
 
 .fitTitle {
-    color: #e05780;
+    color: #8a2846;
     font-family: Titan One;
+    letter-spacing: 2px;
     font-size: 4em;
+    line-height: 0;
+    margin-top: 3em;
+    align-self: flex-start;
+    margin-left: 2rem;
+}
+
+.fitDescription {
+    color: #190028;
+    font-family: 'Arial Rounded MT Bold';
+    font-size: 2em;
+    line-height: 0;
+    margin-bottom: 5em;
+    align-self: flex-start;
+    margin-left: 2rem;
 }
 
 .fitPhoneImage {
-    width: 20em;
-    height: 40em;
+    width: 25em;
+    height: 50em;
+}
+
+.phoneArray {
+    width: 90%;
+    margin: 2em;
+    height: 56em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.featureContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.featureDescription {
+    width: 50%;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fitText {
+    font-family: Arial Rounded;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: #190028;
+    text-align: center;
+}
+
+.fitSubheader {
+    font-family: 'Arial Rounded MT Bold';
+    font-size: 2.5rem;
+    color: #8a2846;
+    line-height: 0;
+    text-align: center;
+}
+
+.width1 {
+    width: 60%;
+}
+
+.width2 {
+    width: 85%;
+}
+
+.gapBottom {
+    margin-bottom: 10rem;
+}
+
+.gapTop {
+    margin-top: 10rem;
 }

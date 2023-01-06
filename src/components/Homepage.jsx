@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import '../styling/Homepage.css'
-import portrait from '../assets/portrait.png'
+// import portrait from '../assets/portrait.png'
 
 class Homepage extends Component {
     render() { 
@@ -13,7 +13,7 @@ class Homepage extends Component {
                     <p className='page' onClick={() => this.props.onSwitch(2)}>About</p>
                     <p className='page' onClick={() => this.props.onSwitch(3)}>Credit</p>
                 </div>
-                <img className='image' src={portrait} alt="Portrait of Devin Edwards"/>
+                {/* <img className='image' src={portrait} alt="Portrait of Devin Edwards"/> */}
             </div>
         );
     }
