@@ -1,4 +1,3 @@
-import Homepage from './Homepage'
 import ProjectPage from './ProjectPage'
 import CreditsPage from './CreditsPage'
 import BioPage from './BioPage'
@@ -16,7 +15,6 @@ class App extends Component {
 
   state = { 
     page: [
-      // <Homepage onSwitch={this.handleSwitch}/>,
       <ProjectPage onSwitch={this.handleSwitch}/>,
       <BioPage onSwitch={this.handleSwitch}/>,
       <CreditsPage onSwitch={this.handleSwitch}/>,
