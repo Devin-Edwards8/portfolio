@@ -17,10 +17,7 @@
     color: #f67e7d;
     font-family: Titan One;
     font-size: 4em;
-    align-self: flex-start;
     line-height: 0;
-    margin-top: 3em;
-    margin-left: 2rem;
 }
 
 .ZeldaDescription {
@@ -86,4 +83,19 @@
     height: 40.5em;
     border-radius: 4em;
     margin-right: 2em;
+}
+
+.git {
+    width: 4rem;
+    height: 4rem;
+    margin-left: 4rem;
+}
+
+.gitContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 12rem;
+    align-self: flex-start;
+    margin-left: 2rem;
 }

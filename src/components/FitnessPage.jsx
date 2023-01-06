@@ -7,12 +7,18 @@ import nutrition2 from'../assets/nutrition2.png'
 import quoteScreen from '../assets/mainscreen.png'
 import workout1 from '../assets/workout1.png'
 import workout2 from '../assets/workout_preview.png'
+import git from '../assets/git_icon1.png'
 
 export default function FitnessPage(props) {
     return (  
         <div className="devFitContainer">
             <Header className='fitHeader' onSwitch={props.onSwitch}/>
-            <h1 className='fitTitle'>devFit<br/></h1>
+            <div className='gitContainer'>
+                <h1 className='fitTitle'>devFit<br/></h1>
+                <a href="https://github.com/Devin-Edwards8/DevFit" target="_blank" rel="noopener noreferrer">
+                    <img src={git} alt="github icon" className='git'/>
+                </a>
+            </div>
             <p className='fitDescription'>A personal fitness app.</p>
             <div className='phoneArray'>
                 <img src={nutrition1} style={{alignSelf: 'flex-end'}} alt="devFit's nutrition screen" 

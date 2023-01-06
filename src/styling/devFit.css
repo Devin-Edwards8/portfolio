@@ -18,15 +18,21 @@
     background-color: #ffe0e9;
 }
 
+.gitContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 3em;
+    align-self: flex-start;
+    margin-left: 2rem;
+}
+
 .fitTitle {
     color: #8a2846;
     font-family: Titan One;
     letter-spacing: 2px;
     font-size: 4em;
     line-height: 0;
-    margin-top: 3em;
-    align-self: flex-start;
-    margin-left: 2rem;
 }
 
 .fitDescription {
@@ -82,6 +88,12 @@
     color: #8a2846;
     line-height: 0;
     text-align: center;
+}
+
+.git {
+    width: 4rem;
+    height: 4rem;
+    margin-left: 4rem;
 }
 
 .width1 {

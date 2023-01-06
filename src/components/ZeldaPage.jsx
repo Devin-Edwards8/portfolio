@@ -7,12 +7,18 @@ import gameplay2 from '../assets/gameplay.mp4'
 import multiplayer1 from '../assets/multiplayer.mov'
 import multiplayer2 from '../assets/multiplayer.mp4'
 import interface_preview from '../assets/interface.png'
+import git from '../assets/git_icon2.png'
 
 export default function ZeldaPage(props) {
     return (  
         <div className="ZeldaContainer">
             <Header className='ZeldaHeader' onSwitch={props.onSwitch}/>
-            <p className='ZeldaTitle'>The Legend Of Zelda</p>
+            <div className='gitContainer'>
+                <h1 className='ZeldaTitle'>The Legend of Zelda<br/></h1>
+                <a href="https://github.com/Devin-Edwards8/Game3902" target="_blank" rel="noopener noreferrer">
+                    <img src={git} alt="github icon" className='git'/>
+                </a>
+            </div>
             <p className='ZeldaDescription'>Remaking a classic.</p>
             <video width="900rem"  height="600rem" loop autoPlay muted>
                 <source src={gameplay1} type="video/mov" />
