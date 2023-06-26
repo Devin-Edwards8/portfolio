@@ -1,0 +1,78 @@
+
+body {
+font-family: 'Source Code Pro', monospace;
+background: rgb(255,0,106);
+background: linear-gradient(90deg, rgba(255,0,106,1) 0%, rgba(72,9,121,1) 5%, rgba(56,0,102,1) 15%, rgba(4,4,55,1) 45%, rgba(2,0,36,1) 50%, rgba(4,4,55,1) 55%, rgba(56,0,102,1) 86%, rgba(72,9,121,1) 95%, rgba(255,0,106,1) 100%);
+font-size: 16px;
+margin: 0;
+padding: 20px;
+}
+
+h1 {
+text-align: center;
+font-size: 24px;
+font-weight: bold;
+}
+
+h2 {
+margin-top: 0;
+font-size: 20px;
+font-weight: bold;
+}
+
+h3 {
+margin-bottom: 10px;
+font-size: 18px;
+font-weight: bold;
+}
+
+p {
+line-height: 1.5;
+}
+
+u {
+text-decoration: underline;
+color: #fc82b5
+}
+
+ul li{
+    color: #fc82b5
+}
+
+.section {
+margin-bottom: 30px;
+}
+
+.section:last-child {
+margin-bottom: 0;
+}
+
+.section h2 {
+text-align: center;
+}
+
+.section-content {
+max-width: 800px;
+margin: 0 auto;
+}
+
+.project {
+margin-bottom: 30px;
+}
+
+.project h3 {
+margin-top: 0;
+}
+
+.project img {
+max-width: 100%;
+height: auto;
+margin-bottom: 10px;
+}
+.header{
+    color: #d8c2ff;
+}
+.words{
+    color: #b8f2e6
+}
+
